@@ -7,7 +7,7 @@ import java.util.Date;
 
 
     @Entity
-    @Table(name= "tbl_vaga")
+    @Table(name= "tbl_veiculo")
     @Data
     public class Veiculo {
 
@@ -36,5 +36,7 @@ import java.util.Date;
         @ManyToOne
         @JoinColumn(name = "proprietario_id")
         private Cliente proprietario;
+
+
 
     }

@@ -16,7 +16,7 @@ public class Pagamento {
     private Long codigo;
 
     @Column(name = "valor")
-    private String Double;
+    private Double valor;
 
     @Column(name = "data_pagamento")
     @Temporal(TemporalType.DATE)
